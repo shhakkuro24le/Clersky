@@ -46,6 +46,7 @@ font-size: 16px;
     background-color: #163A24;
     padding-left: 200px;
     padding-bottom: 70px;
+    
 }
 .backin_hr {
     padding-top: 120px;
@@ -437,6 +438,7 @@ text-align: center;
 .ebook_container{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 .ebook_heading{
     line-height: 56px;
@@ -547,11 +549,11 @@ border-radius: 255px;
     color:  #163A24;
 }
 .btn_sign_up {
-    position: absolute;
+
     right: 70px;
     border-radius: 162px;
     width:100px;
-    height: 54px;
+    height: 50px;
     background-color: #198C36;
     border:none;
     color: #FBFAF7;
@@ -617,11 +619,14 @@ span a:hover{
 
 
 @media (max-width: 992px) {
+
     .header_container{
         display: flex;
         flex-direction: column;
         text-align: center;
+        
     }
+    
  .man_item{
      padding-left: 50px;
  }
@@ -631,11 +636,22 @@ span a:hover{
      align-items: center;
      
  }
- .strar{
-     padding-top: 30px;
-     padding-bottom: 30px;
- }
- 
+.shield {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.star{
+    margin-bottom: 30px;
+}
+.magnifier {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.newsletter_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 @media (max-width: 792px){
     .btn_heading {
@@ -675,4 +691,10 @@ span a:hover{
         align-items: center;
     }
 }
-
+@media (max-width: 655px){
+    .newsletter_container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
